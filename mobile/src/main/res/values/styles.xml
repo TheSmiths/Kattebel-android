@@ -1,0 +1,25 @@
+<resources>
+
+    <color name="light">#56BFB5</color>
+    <color name="dark">#38817A</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/light</item>
+        <item name="android:displayOptions">showTitle|showHome</item>
+    </style>
+
+    <!-- FIRST SCREEN (two choices) -->
+    <style name="AppBaseThemeFirstScreen" parent="AppTheme">
+        <item name="android:windowBackground">@color/light</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>
